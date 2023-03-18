@@ -1,5 +1,5 @@
 -name: fetch parameter
- host: localhost
+ hosts: localhost
  tasks:
    - name: print test
      ansible.builtin.debug:
